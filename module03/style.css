@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;    
+}
+html { 
+    box-sizing: border-box;
+    vertical-align: top;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;        
+}
+
+body {    
+    background-color: #ffffff;
+    max-width: 1200px;    
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.page__header {
+    background-color: #ffffff;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.site__navigation {
+    text-align: center;
+}
+
+
+.site__navigation li {
+    font-size: 14px;
+    list-style: none;
+    margin-top: 77px;
+    display: inline-block;
+    text-align: center;
+}
+.site__navigation li:not(:last-child){
+    margin-right: 73px;
+}
+
+.site__navigation a {
+    color: #626262;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    vertical-align: center;
+}
+
+.site__navigation a:hover {
+    color: #6BC2F7;
+}
+
+
+.features {
+    margin: 0 auto;
+}
+.ul-features {
+    margin: 0 auto;
+    list-style: none;
+    display: block;
+    width: 903px;
+    margin-top: 143px;
+    font-size: 0;
+}
+.img__wrapper {
+    margin-bottom: 30px;
+}
+
+.theme__features {
+    margin-bottom: 34px;
+}
+.li-features {
+    vertical-align: top;
+    display: inline-block;
+    width: 421px;
+    font-size: 0;
+    margin-right: 61px;
+    margin-bottom: 135px;
+}
+.li-features:nth-last-child(-n+2) {
+    margin-bottom: 0;
+}
+
+.li-features:nth-child(2n) {
+    margin-right: 0;
+}
+
+.figcapture__features {
+    font-family: 'Ubuntu', sans-serif;
+    color: #B4AD9E;
+    font-size: 14px;
+    line-height: 16.8px;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+}
+.theme__features {
+    font-family: 'Playfair Display SC', serif;
+    color: #626262;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: none;
+}
+.text__features {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 14px;
+}
+
+.button {
+   margin-top: 52px;
+   margin-bottom: 68px;
+   border: 1px;
+   text-align: center;
+   border-color: #626262;
+}
+
+.load_button {
+    outline: none;
+   background: #ffffff;
+   padding: 20px 40px;
+   text-align: center;
+   color: #626262;
+   font-size: 20px;
+   line-height: 24px;
+   cursor: pointer;
+}
