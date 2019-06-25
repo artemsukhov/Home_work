@@ -12,20 +12,18 @@ html {
     box-sizing: inherit;        
 }
 
-body {    
-    background-color: #ffffff;
-    max-width: 1200px;    
+.container {
+    width: 901px;
+    margin: 0 auto;
 }
-
+.page__header {
+    background-color: ffffff;
+    font-family: 'Playfair Display SC', serif;
+}
 img {
     display: block;
     max-width: 100%;
     height: auto;
-}
-
-.page__header {
-    background-color: #ffffff;
-    font-family: 'Playfair Display SC', serif;
 }
 
 .site__navigation {
@@ -34,10 +32,10 @@ img {
 
 
 .site__navigation li {
+    display: inline-block;
     font-size: 14px;
     list-style: none;
-    margin-top: 77px;
-    display: inline-block;
+    padding-top: 77px;
     text-align: center;
 }
 .site__navigation li:not(:last-child){
@@ -65,7 +63,7 @@ img {
     list-style: none;
     display: block;
     width: 903px;
-    margin-top: 143px;
+    margin-top: 100px;
     font-size: 0;
 }
 .img__wrapper {
@@ -79,8 +77,7 @@ img {
     vertical-align: top;
     display: inline-block;
     width: 421px;
-    font-size: 0;
-    margin-right: 61px;
+    margin-right: 60px;
     margin-bottom: 135px;
 }
 .li-features:nth-last-child(-n+2) {
@@ -110,22 +107,22 @@ img {
     font-family: 'Playfair Display SC', serif;
     font-size: 14px;
 }
-
 .button {
-   margin-top: 52px;
-   margin-bottom: 68px;
-   border: 1px;
-   text-align: center;
-   border-color: #626262;
+    text-align: center;
+    padding-top: 57px;
+    margin-bottom: 1rem;
 }
-
 .load_button {
-    outline: none;
-   background: #ffffff;
-   padding: 20px 40px;
-   text-align: center;
-   color: #626262;
-   font-size: 20px;
-   line-height: 24px;
-   cursor: pointer;
+    display: block;
+    margin: 0 auto 60px auto;
+    background: transparent;
+    border-width: 1px;
+    border-color: #626262;
+    border-style: solid;
+    width: 162px;
+    height: 58px;
+    font-size: 20px;
+    font-family: "Playfair Display";
+    color: #626262;
+    line-height: 1.2;
 }
