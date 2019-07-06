@@ -131,7 +131,7 @@ img {
     display: inline-block;
     color: white;
     line-height: 40px;
-    vertical-align: center;
+    vertical-align: middle;
     padding-left: 13px;
     width: 54px;
     height: 40px;
@@ -189,4 +189,5 @@ img {
     font-family: 'Open Sans', sans-serif;
     color: #f3fbf9;
     line-height: 1.2;
+    cursor: pointer;
 }
