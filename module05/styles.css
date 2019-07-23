@@ -33,6 +33,7 @@ HEADER
 */
 .site_logo {
     display: inline-block;
+    float: left;
     margin-top: 38px;
 }
 
@@ -49,12 +50,13 @@ img {
 }
 .nav__list {
   float: right;
-  width: 473px;
   padding-top: 43px;
   list-style: none;
 }
+.nav__list li {
+  float: right;
+}
 .nav__list li a {
-  float: left;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   font-size: 10px;
