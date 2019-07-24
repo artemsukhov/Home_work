@@ -34,11 +34,11 @@ HEADER
 .site_logo {
     display: inline-block;
     float: left;
-    margin-top: 38px;
 }
 
 .page__header {
     font-family: "Open Sans", serif;
+    padding-top: 43px;
     height: 91px;
 }
 
@@ -50,7 +50,7 @@ img {
 }
 .nav__list {
   float: right;
-  padding-top: 43px;
+
   list-style: none;
 }
 .nav__list li {
@@ -63,6 +63,7 @@ img {
   color: #0f0101;
   text-decoration: none;
   padding-left: 42px;
+  padding-top: 43px;
   text-transform: uppercase;
 }
 
