@@ -19,6 +19,7 @@ html {
 }
 body {
   background-color: rgb(233, 240, 253);
+  
 }
 .container {
     margin: 0 auto;
@@ -34,12 +35,13 @@ HEADER
 .site_logo {
     display: inline-block;
     float: left;
+    height: auto;
 }
 
 .page__header {
     font-family: "Open Sans", serif;
-    padding-top: 43px;
-    height: 91px;
+    padding-top: 38px;
+    height: 90px;
 }
 
 img {
@@ -49,6 +51,7 @@ img {
     object-fit: cover;
 }
 .nav__list {
+  display: inline-block;
   float: right;
 
   list-style: none;
@@ -63,7 +66,7 @@ img {
   color: #0f0101;
   text-decoration: none;
   padding-left: 42px;
-  padding-top: 43px;
+  padding-top: 42px;
   text-transform: uppercase;
 }
 
