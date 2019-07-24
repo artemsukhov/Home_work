@@ -50,24 +50,24 @@ img {
     height: auto;
     object-fit: cover;
 }
-.nav__list {
-  display: inline-block;
-  float: right;
 
+.nav__list {
+  float: right;
   list-style: none;
 }
 .nav__list li {
   float: right;
+  vertical-align: middle;
 }
 .nav__list li a {
-  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   font-size: 10px;
   color: #0f0101;
   text-decoration: none;
-  padding-left: 42px;
-  padding-top: 42px;
+  padding: 42px 0 42px 42px;
   text-transform: uppercase;
+  vertical-align: middle;
+}
 }
 
 .nav__list li a:hover {
