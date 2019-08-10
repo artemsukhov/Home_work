@@ -35,7 +35,7 @@ img {
 .site_navigation {
   display: flex;
   justify-content: space-between;
-  width: 491px;
+  /* width: 491px; */
   margin: 0;
   padding: 0;
   font-size: 14px;
